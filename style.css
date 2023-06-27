@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: 0px 166px;
+}
+.header{
+    background-image: url("BG.jpg");
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    color: #ffffff;
+    text-decoration:none;
+    font-weight: 700;
+    font-size: 16px;
+
+    margin-right: 25px;
+    transition: color 0.3s linear;
+
+}
+.nav-item:hover{
+    color: red;
+}
+.num{
+    color: white;
+    text-decoration:none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 25px;
+
+}
+.num:hover{
+    color: red;
+}
+.phone-text{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 25px;
+
+}
+.phone-holder{
+    display: flex;
+    align-items: center;
+
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #ffffff;
+    padding-right: 10px;
+    height: 70px;
+}
+.button{
+    background-color: #FF7400;
+    color: #FFF;
+    text-decoration:none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.3s linear;
+
+}
+.button:hover{
+    background-color: darkorange;
+}
+.header-down{
+    position: relative;
+}
+.header-title{
+    color: sandybrown;
+    font-family: 'Loved by the King', cursive;
+    font-size: 140px;
+    font-weight: 400px;
+    text-align: -moz-right;
+    position: absolute;
+    right: 0;
+    margin-top: 300px;
+
+}
+.cards-holder{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+    width: 349px;
+    margin-right: 31px;
+    background-color: #FFFFFF;
+    margin-top: -80px;
+    padding: 0px 10px;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding-top: 25px;
+
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-right: 31px;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+
+}
+.card-desc{
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+    padding: 54px 0px;
+
+}
+.history{
+    margin-top: 166px;
+    padding-bottom: 200px;
+
+}
+.history-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+    padding: 21px 0px;
+
+}
+.history-description{
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+
+
+}
+.history-title span{
+    color: #D67E34;
+}
+.history-holder{
+   display: flex;
+    justify-content: space-between;
+
+}
+.history-images{
+    position: relative;
+
+}
+.images-1{
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: -650px;
+    flex-shrink: 0;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.50);
+
+}
+.images-2{
+    position: absolute;
+    z-index: 999;
+    top: 90px;
+    left: -350px;
+    flex-shrink: 0;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.50);
+
+
+}
+.images-3{
+    position: absolute;
+    z-index: 0;
+    top: -100px;
+    left: -500px;
+    flex-shrink: 0;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.50);
+
+}
+.black-block{
+    background-image: url("фон.jpg");
+    padding: 80px 0px;
+}
+.left-title{
+    color: #D67E34;
+    font-size: 35px;
+    font-family: Tinos;
+    margin-bottom: 20px;
+}
+.left-text{
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.right-btn{
+    background-color: #FF7400;
+    color: #FFF;
+    text-decoration:none;
+    padding: 24px 28px;
+    font-weight: 1000;
+    transition: background-color 0.3s linear;
+
+}
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-title{
+    color: #000;
+    font-size: 54px;
+    font-family: Tinos;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+
+}
+.gallery-title span{
+    color: #D67E34
+
+}
+.gallery-images{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    margin-right: 20px;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.50);
+}
+.gallery-down,
+gallery-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.50);
+}
+.comment{
+    background-color: #FFFFFF;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+.comment-text{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.comment-img{
+    border-radius: 50px;
+}
+.comment-image{
+    text-align: center;
+}
+.comment-type{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.comment-name{
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
